@@ -42,4 +42,4 @@ See inline comments and `requirements-extras.txt`.
 
 ## License
 
-MIT — see `LICENSE`.
+MIT — see [`LICENSE`](https://github.com/Amannor/foia-accelerator/blob/main/LICENSE).
