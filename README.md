@@ -8,7 +8,7 @@ This repository contains **working code** for four modules:
 4. **Summarizer** — lightweight extractive summary for long texts.
 
 > ⚠️ This is a **demonstration** on synthetic/open text. It is **not** a production system and makes no release decisions.
-> In addition note that this repo currently has a small set of synthetic data, for POC purposes only
+> In addition note that this repo currently has a small set of synthetic data, for POC purposes only. The tests feature is currently disabled
 
 ## Quickstart
 Note that you need to have python version >=3.9.0
