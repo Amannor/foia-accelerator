@@ -28,7 +28,7 @@ def summarize(text: str, max_sentences: int = 3) -> str:
     sim = cosine_similarity(tfidf)
     np.fill_diagonal(sim, 0.0)
     graph = nx.from_numpy_array(sim)
-    scores = nx.pagerank_numpy(graph)
+    scores = nx.pagerank(graph)
     ranked = sorted(((scores[i], s) for i, s in enumerate(sents)), reverse=True)
     top = [s for _, s in ranked[:max_sentences]]
     order = {s:i for i, s in enumerate(sents)}
