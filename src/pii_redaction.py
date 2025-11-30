@@ -7,7 +7,7 @@ Outputs character spans and labels for *human review*.
 - Patterns: emails, SSN, phone, dates, addresses (coarse), URLs.
 - Extend with spaCy NER or Presidio if needed.
 
-Author: [Your Name]
+Author: Alon Mannor
 License: MIT
 """
 import re
