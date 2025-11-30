@@ -4,7 +4,7 @@ Deduplication via TF-IDF + Cosine Similarity
 Clusters near-duplicate FOIA requests using cosine similarity on TF-IDF vectors.
 No heavy models required. Threshold controls cluster tightness.
 
-Author: [Your Name]
+Author: Alon Mannor
 License: MIT
 """
 from typing import List, Dict
