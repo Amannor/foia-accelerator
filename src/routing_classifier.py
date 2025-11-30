@@ -8,7 +8,7 @@ component/agency for an incoming FOIA request.
 - Deterministic, small, easy to train on a laptop/GPU-less machine.
 - Optional: swap to a transformer-based classifier (see comments).
 
-Author: [Your Name]
+Author: Alon Mannor
 License: MIT
 """
 from typing import List, Iterable
