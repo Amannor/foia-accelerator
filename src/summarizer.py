@@ -4,7 +4,7 @@ Lightweight Extractive Summarizer (TextRank-like)
 Implements a minimal extractive summarizer using a sentence similarity graph
 with PageRank (via networkx). Avoids heavy model downloads.
 
-Author: [Your Name]
+Author: Alon Mannor
 License: MIT
 """
 from typing import List
